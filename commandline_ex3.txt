@@ -1,0 +1,71 @@
+Admin@VietThuanTran MINGW32 /e/GitProject
+$ mkdir mystory
+
+Admin@VietThuanTran MINGW32 /e/GitProject
+$ cd mystory
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory
+$ git init
+Initialized empty Git repository in E:/GitProject/mystory/.git/
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ touch story.txt
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ echo "This is my story" >> story.txt
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ touch shopping_list.txt
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ echo "calculator, pen, pencil, laptop" >> shopping_list.txt
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ echo "clothes, shoes, jacket, coat..." >> shopping_list.txt
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ mkdir school
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory (master)
+$ cd school
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory/school (master)
+$ touch tools.txt
+
+Admin@VietThuanTran MINGW32 /e/GitProject/mystory/school (master)
+$ cd /e/Gitproject/mystory
+
+
+Admin@VietThuanTran MINGW32 /e/Gitproject/mystory (master)
+$ git add .
+
+Admin@VietThuanTran MINGW32 /e/Gitproject/mystory (master)
+$ git commit -m "story"
+[master (root-commit) e2c61f9] story
+ 3 files changed, 3 insertions(+)
+ create mode 100644 school/tools.txt
+ create mode 100644 shopping_list.txt
+ create mode 100644 story.txt
+
+Admin@VietThuanTran MINGW32 /e/Gitproject/mystory (master)
+$ git remote add origin https://github.com/thuantran281/GitHub-Ex3-mystory-repo.git
+
+Admin@VietThuanTran MINGW32 /e/Gitproject/mystory (master)
+$ git clone https://github.com/thuantran281/GitHub-Ex3-mystory-repo.git /e/Girproject
+Cloning into 'E:/Girproject'...
+warning: You appear to have cloned an empty repository.
+
+Admin@VietThuanTran MINGW32 /e/Gitproject/mystory (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 420 bytes | 420.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/thuantran281/GitHub-Ex3-mystory-repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Admin@VietThuanTran MINGW32 /e/Gitproject/mystory (master)
+$
